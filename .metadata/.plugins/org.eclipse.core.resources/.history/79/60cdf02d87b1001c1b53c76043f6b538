@@ -1,0 +1,9 @@
+package com.webload;
+
+public class Waits {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "E:\\JavaTraining\\Selenium\\driver\\chromedriver.exe" );
+		
+	}
+
+}
