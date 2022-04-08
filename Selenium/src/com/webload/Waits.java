@@ -18,7 +18,7 @@ public class Waits {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); //Implicit wait
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); //Implicit wait
 		
 		
